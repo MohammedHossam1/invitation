@@ -1,8 +1,8 @@
 
 //nav icon
 $('#ic').click(function () {
-    $('nav').animate({ width: "20%" }, 400)
-    $('#ic').animate({ marginLeft: "22%" })
+    $('nav').animate({ width: "250px" }, 400)
+    $('#ic').animate({ marginLeft: "270" })
 })
 $('#close').click(function () {
     $('nav').animate({ width: "0px" }, 400)

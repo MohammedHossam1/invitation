@@ -82,7 +82,9 @@ nav a:hover {
   color: var(--main-color) !important;
 }
 
-
+#close:hover{
+  color: var(--main-color) !important;
+}
 
 
 
@@ -116,7 +118,7 @@ header p{
 width: 98% !important;
 }
 nav{
-  font-size: 10px;
+  /* font-size: 10px; */
 }
 #detail p{
   background-color: rgb(114, 112, 112);
@@ -127,7 +129,7 @@ nav{
     content:"";
   }
 nav{
-  font-size: 15px;
+  /* font-size: 15px; */
 }
   h1{
     font-size: 80px !important;
@@ -144,3 +146,6 @@ nav{
 width: 98% !important;
 }
 }
+
+
+
