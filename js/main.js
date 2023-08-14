@@ -1,11 +1,11 @@
 
 //nav icon
 $('#ic').click(function () {
-    $('nav').animate({ width: "250px" }, 400)
-    $('#ic').animate({ marginLeft: "270" })
+    $('nav').animate({ left: "0" }, 400)
+    $('#ic').animate({ marginLeft: "250px" })
 })
 $('#close').click(function () {
-    $('nav').animate({ width: "0px" }, 400)
+    $('nav').animate({ left: "-230px" }, 400)
     $('#ic').animate({ marginLeft: "15px" })
 
 })

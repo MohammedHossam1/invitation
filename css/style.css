@@ -1,4 +1,11 @@
-
+nav{
+  position: fixed;
+  top: 0px;
+  left:-230px;
+   /* background-color: #e68285; */
+   width: 230px;
+   overflow-x: hidden;
+}
 header {
   width: 100%;
   background-image: linear-gradient(
@@ -62,11 +69,7 @@ header {
   border-radius: 0% !important;
 }
 
-nav {
-  /* background-color: #e68285; */
-  width: 0px;
-  overflow-x: hidden;
-}
+
 #close {
   cursor: pointer;
 }
